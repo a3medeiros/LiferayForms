@@ -1,4 +1,4 @@
-package suporte;
+package support;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,7 +10,7 @@ public class Web {
 	
 	public static WebDriver createChrome() {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\AndyStation\\eclipse-workspace\\LRForms\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(Constants.LIFERAY_FORM_URL);

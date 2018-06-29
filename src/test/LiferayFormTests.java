@@ -7,11 +7,11 @@ import org.junit.Test;
 
 import pageObjects.LiferayFormPage;
 import pageObjects.SuccessLiferayFormPage;
-import suporte.Constants;
-import suporte.Web;
+import support.Constants;
+import support.Web;
 
 
-public class LiferayFormTest extends BaseTest {
+public class LiferayFormTests extends BaseTest {
 		
 	@Test
 	public void searchPartyRockOnPage(){

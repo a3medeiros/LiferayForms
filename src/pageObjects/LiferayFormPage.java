@@ -14,7 +14,7 @@ public class LiferayFormPage extends BasePage {
 	//constructor
 	public LiferayFormPage(WebDriver driver) {
 		super(driver);
-		WebDriverWait wait = new WebDriverWait (driver,5);
+		WebDriverWait wait = new WebDriverWait (driver,50);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Submit')]")));
 	}
 

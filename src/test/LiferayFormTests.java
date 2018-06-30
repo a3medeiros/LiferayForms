@@ -10,7 +10,7 @@ import pageObjects.SuccessLiferayFormPage;
 import support.Constants;
 import support.Web;
 
-
+//class that contains the testcases to be performed
 public class LiferayFormTests extends BaseTest {
 		
 	@Test

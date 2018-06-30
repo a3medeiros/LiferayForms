@@ -10,14 +10,17 @@ public class BaseTest {
 	
 	private WebDriver driver;
  	
+	//initialize the chromedriver
 	@Before
 	public void setUp() {
+		
 		driver = Web.createChrome();
 	}
 	
+	//close window
 	@After
 	  public void tearDown(){
-  //Fechar o navegador
-	//driver.quit();
+  
+	driver.quit();
 	}
 }

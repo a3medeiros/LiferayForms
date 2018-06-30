@@ -8,6 +8,7 @@ public class Web {
 	
 	public static WebDriver driver;
 	
+	//method that starts a Chrome
 	public static WebDriver createChrome() {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
